@@ -1,6 +1,8 @@
-/* body{
-  background-image: url("./assets/images/wallpaper.avif")
-} */
+* {
+  margin: 0;
+  padding: auto;
+}
+
 
 .container{
   width: 100vw;
@@ -11,13 +13,13 @@
 }
 
 .container.light {
-  background-color: #ffffff;
+  background-color: #fafafc;
   color: #000000;
 }
 
 .container.dark {
-  background-color: #000000;
-  color: #ffffff;
+  background-image: url(./assets/images/wallpaper.avif);
+ color: #000000;
 }
 
 .fotoperfil {
@@ -44,9 +46,16 @@ font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe 
   background-color: #000000;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 150px;
   cursor: pointer;
 }
+
+.theme.dark{
+  background-color: white;
+  color: #000000;
+}
+
+
 
 
 /* CSS */
@@ -89,4 +98,6 @@ font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe 
 
 .a{
   text-decoration: none;
+  outline: none;
+  color: #000000;
 }
